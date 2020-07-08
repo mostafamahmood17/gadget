@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+}
+.container{
+    padding-bottom: 100px;
+}
+
+.carousel-indicators li{
+    background-color: #FF9C35;
+    height: 8px; 
+    width: 16px; 
+    border-radius: 6px; 
+    border: none;
+    
+
+
+}
+
+
+.bg-pic{
+    background-image: url(images/bg-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 5%;
+    
+    background-position-y: 20%;
+    
+
+}
+.bg-pics{
+    background-image: url(images/bg-2.png);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: 10%;
+    
+}
+
+.card{
+    
+        border: none;
+        box-shadow: 0 5px 20px rgba(109, 109, 109, 0.12);
+        border-radius: 10px;
+}
+.see-all{
+    color: #FF9C35;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.box{
+    box-shadow: 0 5px 20px rgba(109, 109, 109, 0.12);
+    padding:50px;
+    border-radius: 5px;
+}
+
+.line{
+    height:10px;
+    width:200px;
+    background-color: #FF9C35;
+    display:flex;
+    justify-content: center;
+}
